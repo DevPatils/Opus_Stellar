@@ -1,0 +1,18 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "buyerscript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stellar/stellar-sdk": "^12.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "stellar-sdk": "^12.0.1"
+  }
+}

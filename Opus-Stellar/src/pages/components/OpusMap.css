@@ -1,0 +1,32 @@
+
+.map-container {
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.9); 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.map {
+  height: 50vh;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.opus-map-container {
+  display: flex;
+}
+
+.map-container {
+  flex: 1;
+  height: 100%; /* Fill remaining height */
+}
+
+.block-details-container {
+  flex: 1;
+  height: 100%; /* Fill remaining height */
+  overflow-y: auto; /* Allow scrolling if content exceeds container height */
+}
